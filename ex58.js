@@ -6,7 +6,7 @@ Crie uma função que receba um array de produtos e retorne o total das despesas
 
 function despesasTotais(obj){
 
-    soma = obj.map(callbackValor).reduce(callbackSum)
+    soma = obj.map(callbackValor)
 
     console.log(soma)
 }
